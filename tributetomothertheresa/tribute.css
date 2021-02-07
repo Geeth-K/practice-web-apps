@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.top-content { 
+    text-align: center;
+}
+
+.main-title {
+    color:rgb(9, 29, 66);
+    background-color: lightslategray;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+img {
+    margin: 10px 0px;
+    border-radius: 50%;
+}
