@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant Review Form</title>
+        <link rel="stylesheet" href="review.css">
+    </head>
+    <body>
+        <h1 id="review-title">Restaurant Review Form</h1>
+        <form id="review-form">
+            <table class="table-style">
+                <tr>
+                    <td>
+                        <label for="first-name">First Name </label>
+                    </td>
+                    <td>
+                        <input type="text" id="first-name" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="last-name">Last Name </label>
+                    </td>
+                    <td>
+                        <input type="text" id="last-name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address-field">Address </label>
+                    </td>
+                    <td>
+                        <input type="text" id="address-field">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mobile-num">Mobile Number </label>
+                    </td>
+                    <td>
+                        <input type="tel" id="mobile-num" name="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email-id">Email </label>
+                    </td>
+                    <td>
+                        <input type="email" id="email-id" name="emailid">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rating">Rating (1-10) </label>
+                    </td>
+                    <td>
+                        <input type="range" id="rating" name="rating" min="1" max="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="food">Food </label>
+                    </td>
+                    <td>
+                        <input type="radio" id="good" name="food" value="good" checked>
+                        <label for="good">Good</label><br>
+                        <input type="radio" id="average" name="food" value="average">
+                        <label for="average">Average</label><br>
+                        <input type="radio" id="bad" name="food" value="bad">
+                        <label for="bad">Bad</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="service">Service </label>
+                    </td>
+                    <td>
+                        <input type="radio" id="good-service" name="service" value="good-service" checked>
+                        <label for="good-service">Good</label><br>
+                        <input type="radio" id="average-service" name="service" value="average-service">
+                        <label for="average-service">Average</label><br>
+                        <input type="radio" id="bad-service" name="service" value="bad-service">
+                        <label for="bad-service">Bad</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ambience">Ambience </label>
+                    </td>
+                    <td>
+                        <input type="radio" id="good-ambience" name="ambience" value="good-ambience" checked>
+                        <label for="good-ambience">Good</label><br>
+                        <input type="radio" id="average-ambience" name="ambience" value="average-ambience">
+                        <label for="average-ambience">Average</label><br>
+                        <input type="radio" id="bad-ambience" name="ambience" value="bad-ambience">
+                        <label for="bad-ambience">Bad</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comment">Comment </label>
+                    </td>
+                    <td>
+                        <textarea id="comment-section" name="comment" rows="10" cols="30">
+                            Please enter your feedback here.
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <input type="submit" id="submit" name="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

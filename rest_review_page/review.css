@@ -1,0 +1,30 @@
+#review-title {
+    color:dimgrey;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#review-form {
+    border: 2px solid black; 
+    border-radius: 5px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: lightgray;
+}
+
+.table-style {
+    margin: 10px auto;
+}
+
+td {
+    padding-bottom: 10px;
+}
+
+label, input {
+    font-family:sans-serif;
+    font-size: 120%;
+}
+
+#comment-section {
+    font-style: italic;
+}
