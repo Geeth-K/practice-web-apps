@@ -4,6 +4,7 @@ body, html {
     margin: 0px 0px;
     color: floralwhite;
     font-family:Verdana;
+    background-color:rgb(51, 21, 1);
 }
 
 header {
@@ -55,53 +56,121 @@ header {
     background-color: floralwhite;
 }
 
-.mid-part {
-    position: absolute;
-}
-
 .section-style {
+    background-color: rgb(92, 38, 2);
     font-size: larger;
-    background-color:rgb(51, 21, 1);
     color: white;
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid white;
 }
 
 .first {
     float: left;
-    width: 33%;
-    margin-left: 0.25%;
-    margin-right: 0.25%;
+    width: 32%;
+    margin-left: 0.5%;
+    margin-right: 1.25%;
 }
 
 .second {
    float: left; 
-   width: 33%;
-   margin-right: 0.25%;
+   width: 32%;
+   margin-right: 1.25%;
 }
 
 .third {
     float: left;
-    width: 33%;
-    margin-right: 0.25%;
+    width: 32%;
+    margin-right: 0.5%;
 }
 
 .section-image-style {
     margin-top: 10px;
-    border: 2px solid white;
+    border: 1px solid white;
+}
+
+.name-style {
+    font-style: italic;
+    display: block;
 }
 
 .section-p-style {
     color:floralwhite;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:deeppink;
-    color: white;
+.section-read-more {
+    font-size: 100%;
     text-align: center;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    color: floralwhite;
+    border-radius: 10px;
+}
+
+.section-read-more:hover {
+    color: black;
+    background-color: floralwhite;
+}
+
+.table-div {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.novelists-table {
+    background-color: rgb(92, 38, 2);
+    table-layout:fixed;
+    width: 99%;
+    font-size: 150%;
+    border: 1px solid floralwhite;
+    color: floralwhite;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    border-collapse: collapse;
+}
+
+.novelists-table th{
+    background-color: rgb(44, 1, 1);
+    color:floralwhite;
+    border: 1px solid floralwhite;
+}
+
+.novelists-table td{
+    color:floralwhite;
+    border: 1px solid floralwhite;
+    padding: 20px;
+}
+
+.novelist-name {
+    color: floralwhite;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.novelist-name:hover {
+    text-decoration:underline;
+}
+
+.book-name {
+    color:blanchedalmond;
+}
+
+.footer {
+    width: 100%;
+    background-color:peru;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .first, .second, .third {
+        float: none;
+        margin: auto auto;
+        width: 90%;
+    }
   }
